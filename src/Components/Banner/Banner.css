@@ -1,0 +1,231 @@
+.link{
+	text-decoration: none;
+	color: #111;
+}
+.Banner
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 65vh;
+	z-index: 5;
+	left: 0px;
+	top: 0px;
+}	
+.Slide-container
+{
+	position: relative;
+}
+.carousel
+{
+	position: absolute;
+	right: 0px;
+	width: 75%;
+}
+.carousel .slick-list{
+	padding: 0px;
+}
+.item-root{
+	outline: none;
+}
+
+
+.item-text{
+	position: relative;
+	transition: all 1.5s ease-out ;
+	top: 500px;
+	opacity: 0;
+}
+
+
+.slick-active .item img{
+	opacity: 1;
+	right: 0px;
+	transform: scale(1);
+}
+.slick-active .item-text{
+	top: 0px;
+	opacity: 1;
+}
+
+
+.item{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.item-slide{
+	position: relative;
+}
+.item img{
+	opacity: 0;
+	transform: scale(0.5);
+	transition: all 1.5s ease-in, max-width 0s;
+	position: absolute;
+	top: 0px;
+	max-width: 400px;
+}
+
+.big-txt{
+	font-size: 56px;
+	color: rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	line-height: 1;
+	font-family: 'Jost', sans-serif;
+	margin-bottom: 0px;
+}
+.item h4 {
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.9);
+}
+.item p {
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.6);
+	margin-bottom: 0px;;
+}
+
+.item .cost
+{
+	
+	transition: ease-out 0.8s ;
+	margin-top: 0px;;
+	font-weight: bolder;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 56px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.item .cost sup{
+	font-size: 25px;
+}
+.item .button {
+	padding: 10px 20px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+.item .button.yellow {
+	background-color: #fed700;
+}
+.item .button.big-btn{
+	padding: 10px 40px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.8);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+@media only screen and (max-width: 1199px ){
+	.Banner
+	{
+		height: 65vh;
+	}	
+	.carousel
+	{
+		width: 95%;
+	}
+	.item img{
+		max-width: 35vw;
+	}
+
+	.big-txt{
+		font-size: 5vw !important;
+	}
+	.item h4 {
+		font-size: 2vw;
+	}
+	.item p {
+		font-size: 2vw;
+	}
+	.item .cost
+	{
+		font-size: 3vw;		
+	}
+	.item .cost sup{
+		font-size: 1.5vw;
+	}
+	.from{
+		font-size: 2vw !important;
+	}
+	.item .button.big-btn{
+		padding: 10px 30px;
+		font-size: 2vw;
+		color: rgba(0, 0, 0, 0.8);
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	}
+}
+
+@media only screen and (max-width: 991px ){
+	.Banner
+	{
+		height: 55vh;
+	}		
+}
+
+@media only screen and (max-width: 767px ){
+	.Banner
+	{
+		height: 45vh;
+	}		
+}
+@media only screen and (max-width: 675px ){
+	.Banner
+	{
+		height: 40vh;
+	}			
+}
+@media only screen and (max-width: 575px ){
+	.Banner
+	{
+		height: 45vh;
+	}			
+
+	.item img{
+		position: absolute;
+		top: 5%;
+		left: 0px;
+		max-width: 40vw;
+	}
+
+	.big-txt{
+		font-size: 6vw !important;
+	}
+	.item h4 {
+		font-size: 2vw;
+	}
+	.item p {
+		font-size: 2vw;
+	}
+	.item .cost
+	{
+		font-size: 4vw;		
+	}
+	.item .cost sup{
+		font-size: 1.5vw;
+	}
+	.from{
+		font-size: 2.5vw !important;
+	}
+	.item .button.big-btn{
+		padding: 10px 30px;
+		font-size: 3vw;
+		color: rgba(0, 0, 0, 0.8);
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	}
+}
+@media only screen and (max-width: 470px ){
+	.Banner
+	{
+		margin-top: 3vh;
+		height: 35vh;
+	}		
+	
+	.item img{
+		position: absolute;
+		top: 5%;
+		left: 0px;
+		max-width: 40vw;
+	}
+
+
+	.item img{
+		margin-top: 2.5vh;
+	}
+}

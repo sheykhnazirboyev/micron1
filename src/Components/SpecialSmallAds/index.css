@@ -1,0 +1,23 @@
+.Special-small-ads
+{
+    padding: 0em 0em 0em 1em;
+}
+
+.ads-cards-section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding:  0em;
+}
+
+@media only screen and (max-width: 1199px){
+	.ads-cards-section{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media only screen and (max-width: 500px){
+	.ads-cards-section{
+		grid-template-columns: 1fr;
+	}	
+}

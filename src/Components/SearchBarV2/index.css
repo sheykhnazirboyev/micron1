@@ -1,0 +1,8 @@
+.searchbar-v2{
+	display: grid;
+	grid-template-columns: 2fr 4fr 2fr;
+}
+.searchbar-v2-root{
+	background-color: #fed700;
+	padding: 5px 0px;
+}

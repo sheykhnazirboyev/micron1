@@ -1,0 +1,132 @@
+.bestSellers
+{
+    margin-bottom: 1em;;
+}
+.bestsellers-header 
+{
+    display: grid;    
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bestsellers-header h3{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    width: 200px;
+    border-bottom: 2px solid #fed700;
+}
+
+.bestsellers-header-right ul 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+.bestsellers-header-right ul li{
+    padding: 5px 20px;
+}
+.bestsellers-header-right ul  .bordered{
+    border: 1px solid #fed700;
+    border-radius: 40px;    
+    
+}
+
+.bestsellers-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1em 0em;
+}
+.bestSellers-special-add{
+    margin-bottom: 1em;
+}
+.bestSellers-special-add img
+{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1199px){
+    .bestsellers-header 
+    {
+        grid-template-columns: 1fr 5fr;
+    }
+
+    .bestsellers-header h3{
+        font-weight: 200;
+        font-size: 2vw;
+        width: auto;
+    }
+    .bestsellers-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1em 0em;
+    }
+}
+@media only screen and (max-width: 900px){
+    .bestsellers-header 
+    {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .bestsellers-header-right ul {
+        justify-content: center;
+    }
+    .bestsellers-header-right ul li{
+        padding: 5px 10px;
+    }
+    .bestsellers-header-right ul  .bordered{
+        border: 1px solid #fed700;
+        border-radius: 40px;    
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+    .bestsellers-header h3{
+        font-size: 4vw;
+    }
+    .bestsellers-header 
+    {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .bestsellers-header-right ul 
+    {
+        font-size: 13px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .bestsellers-header-right ul  .bordered{
+        border: none;
+    }
+    .bestsellers-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em 0em;
+    }
+}
+@media only screen and (max-width: 610px){
+    .bestsellers-header-right ul 
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 13px;
+    }
+    .bestsellers-header-right ul  .bordered{
+        border: none;
+    }
+}
+@media only screen and (max-width: 510px){
+    .bestsellers-header h3{
+        font-size: 5vw;
+    }
+    .bestsellers-header-right ul 
+    {
+        display: grid;
+        grid-template-columns: 1fr ;
+        font-size: 3vw;
+    }
+}

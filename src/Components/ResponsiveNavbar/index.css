@@ -1,0 +1,41 @@
+.responsive-navbar{
+	background-color: #fed700;
+	padding: 0.5em 0em;
+	position: relative;
+	display: none;
+}
+
+.responsive-navbar-content{
+	display: grid;
+	grid-template-columns: 1fr 9fr;
+	align-items: center;
+}
+.responsive-navbar-icons{
+	display: flex;
+	justify-content: flex-end;
+}
+.responsive-navbar-icons i{
+	margin: 0em 1em;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.7);
+}
+.responsive-navbar-search-input{
+	background-color: white;
+	z-index: 20;
+	padding: 15px;
+	position: absolute;
+	width: 98%;
+	margin: 0px auto;
+	top: 120%;
+	left: 1%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px 3px #aaa;
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+	.responsive-navbar{
+		display: block;
+	}
+}

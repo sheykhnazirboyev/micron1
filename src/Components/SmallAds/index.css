@@ -1,0 +1,79 @@
+.SmallAds
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.ad-card
+{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    background-color: #f5f5f5f5;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ad-card .ad-card-img
+{
+    display: flex;
+    align-items: center;
+}
+.ad-card .ad-card-img img
+{
+    width: 100px;
+}
+
+.ad-card .ad-card-title
+{
+    font-size: 18px;
+    margin-bottom: 0px;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    
+}
+.small-adds-show-more-btn
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+    
+}
+.show-more-arrow
+{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1199px){
+    .SmallAds{
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 2vw;
+    }
+    .ad-card-img img{
+        width: 15vw !important;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .SmallAds{
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    
+    .ad-card-img img{
+        width: 20vw !important;
+    }
+}
+@media screen and (max-width: 576px){
+    .SmallAds{
+        grid-gap: 3vw;
+    }
+    .ad-card-img img{
+        width: 30vw !important;
+    }   
+}

@@ -1,0 +1,39 @@
+.menus
+{
+	display: grid;
+	grid-template-columns: 2fr 5fr 2fr;
+	align-items: center;
+	z-index: 10;
+}
+
+.norm-menus
+{
+	display: flex;
+	padding-left: 2em;
+}
+
+.norm-menus p
+{
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.free-delivery
+{
+	display: flex;
+	justify-content: center;
+	color: rgba(0, 0, 0, 0.65);
+	cursor: pointer;
+}
+
+.active-menu
+{
+	color: red;
+}
+
+@media only screen and (max-width: 1200px) {
+	.navbar-root{
+		display: none;
+	}
+}
+

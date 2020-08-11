@@ -1,0 +1,9 @@
+.sm-logo span{
+	font-size: 32px !important;
+}
+.sm-logo{
+	align-items: center;
+}
+.sm-logo .fa-bars{
+	font-size: 15px;
+}

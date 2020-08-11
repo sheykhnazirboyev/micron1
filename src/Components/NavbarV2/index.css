@@ -1,0 +1,43 @@
+.navbar-v2{
+	display: grid;
+	grid-template-columns: 4fr 9fr 4fr;
+	padding: 1em 0em;
+}
+.navbar-v2-menus {
+	display: grid;
+	align-items: center;
+	font-family: "Robotto", sans-serif;
+	font-size: 15px;
+	font-weight: bolder;
+	color: rgba(0, 0, 0, 0.8);
+	width: 90%;
+}
+.navbar-v2-menus ul{
+	list-style: none;
+	padding-left: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;	
+}
+.navbar-v2-support{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	justify-content: center;
+	align-items: center;
+	font-family: "Robotto", sans-serif;
+	font-size: 15px;
+}
+.support-earphone{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.support-earphone i{
+	font-size: 30px;
+	color: #fed700;
+}
+.support-text{
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,37 @@
+.more-tabs{
+	margin-top: 2em;
+	background-color: #f9f9f9 !important;
+	padding: 2em 0em;
+}
+
+.more-tabs-cards
+{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-gap: 10px;
+}
+
+
+@media only screen and (max-width: 1199px){
+	.more-tabs-cards
+	{
+		display: grid;
+		grid-template-columns: 2fr 3fr 2fr;
+		grid-gap: 10px;
+	}
+
+}
+@media only screen and (max-width: 900px){
+	.more-tabs-cards
+	{
+		display: grid;
+		grid-template-columns: 2fr 0fr 2fr;
+		grid-gap: 10px;
+	}	
+}
+@media only screen and (max-width: 700px){
+	.more-tabs-cards
+	{
+		grid-template-columns: 1fr;
+	}	
+}

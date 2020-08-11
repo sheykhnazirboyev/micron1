@@ -1,0 +1,43 @@
+.scrollTop {
+    /* position: fixed; 
+    width: 100%;
+    bottom: 20px;
+    align-items: center;
+    height: 20px;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.5; */
+    position: fixed;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: rgba(254, 215, 0, 0.6);
+    color: #fff;
+    animation: fadeIn 0.3s;
+    
+  }
+  
+  .scrollTop:hover{
+    background-color: rgba(254, 215, 0, 1);
+  }
+
+  .show-scroll{
+    display: flex;
+  }
+  
+  .hide-scroll{
+    display: none;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.9;
+    }
+  }

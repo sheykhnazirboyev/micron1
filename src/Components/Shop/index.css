@@ -1,0 +1,27 @@
+.shop-bar{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0px 1em;
+}
+
+.shop-bar div:nth-child(1){
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.shop-bar h2{
+	color: rgba(0, 0, 0,0.7);
+	margin-right: 1em;
+}
+
+.shop-bar i{
+	color: rgba(0, 0, 0,0.7);
+}
+
+.shop-bar div:nth-child(2){
+	display: flex;
+	justify-content: flex-end;
+}

@@ -1,0 +1,196 @@
+.footer-root{
+    background-color: #f8f8f8;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 6fr 3fr 2fr 3fr;
+    padding: 3em 0em;
+}
+.footer p{
+    cursor: pointer;
+}
+.column1{
+    color: rgba(0, 0, 0, 0.7);
+}
+.footer-logo
+{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.footer-logo .yellow, {
+    color: #fed700;
+}
+.footer-text{
+    padding: 1em 0em;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    font-family:  'Jost', sans-serif;;
+}
+.earphone i{
+    font-size: 52px;
+    color: #fed700;
+}
+.call-num{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-socials{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-socials .socials-div{
+    margin-right: 2em;
+}
+.footer-socials .socials-div i{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer ul{
+    cursor: pointer;
+    list-style: none;
+    padding-left: 0px;
+}
+.footer ul li{
+    margin: 0.8em 0em;
+    color: rgba(0, 0, 0, 0.7);
+}
+.footer ul li:hover{
+    color: blue;
+}
+.footer .fa-facebook-square:hover{
+    color: #4267B2;
+}
+.footer .fa-whatsapp:hover{
+    color: green;
+}
+.footer .fa-pinterest-p:hover{
+    color: red;
+}
+
+.footer .fa-linkedin-square:hover{
+    color: #0275d8;
+}
+.footer .fa-instagram:hover{
+    color: orange;
+}
+.footer .fa-youtube-play:hover{
+    color: red;
+}
+.footer .fa-rss:hover{
+    color: orange;
+}
+.capyright-root{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.capyright{
+    display: flex;
+    color: rgba(0, 0, 0, 0.8);
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1199px){
+    .footer{
+        grid-template-columns: 4fr 3fr 2fr 3fr;
+    }   
+    .footer-text{
+        grid-template-columns: 1fr;
+    }
+    .earphone {
+        display: none;
+    }
+    .call-num{
+        font-size: 16px;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .contact-info span{
+        font-size: 14px !important;
+    }
+}
+@media only screen and (max-width: 900px){
+    .footer{
+        grid-template-areas:  
+            'two two two two'
+            'three three three three'
+            'four four four four'
+            'four four four four'
+            'one one one one';
+    }   
+    
+    .column1{
+        grid-area: one;
+    }
+    .footer-socials{
+        justify-content: center;
+    }
+    .column2, .column3, .column4{
+        background-color: #fff;
+        margin: 0.5em 0em;
+        padding: 0em 2em;
+    }
+    .column2 p, .column3 p, .column4 p{
+        display: flex;
+        justify-content: space-between;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    .column2{
+        grid-area: two;
+    }
+    .column3{
+        grid-area: three;
+    }
+    .column4{
+        grid-area: four;
+    }
+     .column2 ul, .column3 ul, .column4 ul{
+        display: none;
+     }
+     .col p{
+        color: blue;
+     }
+     .col ul{
+        display: block;
+     }
+
+    .footer-text, .contact-info , .footer-logo{
+        display: none;
+    }
+    .footer .fa-facebook-square{
+        color: #4267B2 !important;
+    }
+    .footer .fa-whatsapp{
+        color: green !important;
+    }
+    .footer .fa-pinterest-p{
+        color: red !important;
+    }
+
+    .footer .fa-linkedin-square{
+        color: #0275d8 !important;
+    }
+    .footer .fa-instagram{
+        color: orange !important;
+    }
+    .footer .fa-youtube-play{
+        color: red !important;
+    }
+    .footer .fa-rss{
+        color: orange !important;
+    }
+    .capyright-icon{
+        grid-area: icon;
+        text-align: center;
+    }
+    .payment{
+        display: none;
+    }
+    .capyright{
+        display: grid;
+        grid-template-areas: "icon icon";
+    }
+}

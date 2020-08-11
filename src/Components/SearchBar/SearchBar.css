@@ -1,0 +1,48 @@
+.searchBar
+{
+	display: grid;
+	grid-template-columns: 3fr 7fr 3fr;		
+	color: rgba(0, 0, 0, 0.8);
+	padding: 10px 0px;
+	z-index: 10;
+	
+}
+
+.logo
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0em 1em 0em 0em;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+
+.logo span
+{
+	font-size: 50px;
+	font-weight: 600;
+	padding: 0.5em 0em;	
+	padding: 0px;
+}
+.logo-link{
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.7);
+}
+.logo i
+{
+	font-size: 20px;
+}
+
+
+
+.yellow
+{
+	color: #fed700;
+}
+
+@media only screen and (max-width: 1200px) {
+	.searchBar-row{
+		display: none;
+	}
+}

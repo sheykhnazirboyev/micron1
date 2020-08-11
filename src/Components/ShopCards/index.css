@@ -1,0 +1,25 @@
+.pagination{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 1em;
+	padding-top: 1em;
+}
+.pagination p{
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #aaa;
+	margin: 3px;
+	border-radius: 50%;
+	transition: background-color 0.3s linear;
+	cursor: pointer;
+}
+.pagination p:hover{
+	background-color: #aaa;
+}
+.active-page{
+	background-color: #fed700;
+	border: 1px solid #fed700 !important;
+}

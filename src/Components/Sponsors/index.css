@@ -1,0 +1,23 @@
+.sponsors{
+    margin-top: 2em;;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.sponsors .slick-arrow{
+    background-color: #aaa;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+.sponsors img{ 
+    opacity: 0.5;
+    width: 160px !important;
+}
+.sponsors img:hover{ 
+    opacity: 0.7;
+}

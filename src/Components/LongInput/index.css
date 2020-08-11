@@ -1,0 +1,60 @@
+.serch
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.serch form
+{
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.serch form.example input[type=text] {
+  padding: 10px 10px 10px 25px;
+  font-size: 16px;
+  border: 2px solid #fed700;
+  float: left;
+  width: 75%;
+  background-color: #fff;
+  border-radius: 20px 0px 0px 20px;
+  outline: none;
+}
+
+.serch form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.normColor{
+  background: #fed700;;
+  border: 2px solid #fed700;
+}
+
+.serch form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.rangeColor{
+  margin-left: -1px;
+  padding: 8px !important;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+.rangeColor:hover{
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 2px solid rgba(0, 0, 0, 0.1); 
+}

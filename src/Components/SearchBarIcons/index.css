@@ -1,0 +1,127 @@
+.search-icons
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.search-icons-body{
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	align-items: center;
+	text-align: center;
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.7) ;	
+}
+.search-icons i{
+	color: rgba(0, 0, 0, 0.7) ;
+}
+.cart-icon{
+	margin-right: 10px;
+}
+.cart-cost b{
+	margin-left: 10px;
+}
+.cart-list{
+	position: absolute;
+	border-radius: 10px;
+	top: 100%;
+	left: -30%;
+	background-color: #fff;
+	z-index: 40;
+	width: 300px;
+	height: 0px;
+	overflow: hidden;
+	transition: top 0.2s linear;
+}
+.cart-list ul{
+	position: relative;
+}
+.cart-list ul .card-list-footer{
+	position: relative;
+}
+.cart-list-footer{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+}
+.cart-list-footer div{
+	position: relative;
+	height: 30px;
+	width: 100%;
+}
+
+.cart-list-footer div button{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 90%;
+	margin-left: 5%;
+	border: none;
+	outline: none;
+	padding: 10px;
+	border-radius: 15px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+	
+}
+.cart-list-footer div button:hover, .cart-list-checkout:hover{
+	background-color: rgba(0 ,0 ,0 , 0.6);
+	color: #fff;
+	margin-top: -1px;
+	box-shadow: 3px 3px 10px 3px #eee;
+}
+
+.cart-list-checkout{
+	background-color: #fed700 ;
+}
+
+
+
+.show-cart-list.cart-list{
+	height: auto;
+	top: 85%;
+	border-top: 3px solid #fed700;
+	box-shadow: 4px 5px 10px 3px rgba(0, 0, 0, 0.4);
+}
+
+.cart-list ul{
+	list-style: none;
+	padding-left: 10px;
+	padding: 0px 5px;
+}
+
+.cart-list ul li{
+	position: relative;
+}
+.in-cart img{
+	width: 100%;
+}
+.in-cart 
+{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.in-cart-title{
+	font-weight: bold;
+	color: #0062bd !important;
+	margin-bottom: 5px;
+
+}
+.card-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.empty-cart{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5em 0em;
+}
+.empty-cart img{
+	width: 200px;
+}

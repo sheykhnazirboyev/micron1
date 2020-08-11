@@ -1,0 +1,136 @@
+.sign{
+	position: fixed;
+	width: 370px;
+	height: 100vh;
+	z-index: 20;
+	top: 0px;
+	right: -390px;
+	background-color: #fff;
+	box-shadow: -3px -3px 5px 5px #aaa;
+	transition: right 0.3s linear;
+	text-align: right;
+	color: rgba(0, 0, 0, 0.6);
+}
+.close-sign{
+	position: absolute;
+	top: 1.5em;
+	right: 1.5em;
+	font-size: 16px;
+}
+.sign-body{
+	padding: 2em;
+	text-align: center;
+}
+.show-sign-window{
+	right: 0px;
+}
+
+.sign h1{
+	font-weight: 200;
+	color: rgba(0, 0, 0 ,0.9);
+	margin-bottom: 0px;
+}
+.sign-sub-title{
+	margin-top: 0px;
+	font-weight: 100;
+}
+.sign form {
+	padding-top: 2em;
+}
+.sign form input{
+	width: 70%;
+	padding: 15px;
+	margin: 10px 0px;
+	outline: none;
+	border: none;
+	border-radius: 0px 25px 25px 0px;
+	border: 1px solid rgba(0, 0, 0, 0.2)
+}
+.sign form i{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 15px 20px 16px 20px;
+	border-radius: 25px 0px 0px 25px;
+	font-size: 14px;
+}
+.forgot-psw{
+	text-align: right;
+	margin-top:0px;
+	font-size: 11px;
+	cursor: pointer;
+}
+.login-div{
+	position: relative;
+	width: 95%;
+	margin: 0px auto;
+	height: 50px;
+	margin-top: 2em;
+}
+.effective-btn{
+	position: absolute;
+	margin-left: 5%;
+	width: 90%;
+	top: 0px;
+	left: 0px;
+	border: none;
+	outline: none;
+	padding: 15px;
+	border-radius: 30px;
+	font-weight: bolder;
+	transition: all 0.2s linear;
+}
+.login-btn{
+	background-color: #fed700;
+}
+.login-btn:hover{
+	background-color: rgba(0, 0, 0 , 0.7);
+	color: #fff;
+}
+.effective-btn:hover{
+	margin-top: -5px;
+	box-shadow: 0px 5px 10px 1px #aaa;
+}
+.no-account{
+	color: rgba(0, 0, 0 ,0.2);
+	font-size: 12px;
+	cursor: pointer;
+}
+.lighter{
+	color: rgba(0, 0, 0 ,0.7);
+}
+
+.or{
+	margin-top: 2em;
+	color: rgba(0, 0, 0 , 0.4);
+}
+.or span{
+	color: rgba(0, 0, 0 , 0.1);
+}
+.sign-sicials{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.fb{
+	margin-left: 2%;
+	width: 96%;
+	background-color: rgba(59, 89, 152, 0.2);
+	color: blue;
+}
+
+.fb:hover{
+	
+	background-color: rgba(59, 89, 152, 0.9);
+	color: #fff;	
+}
+.gg{
+	margin-left: 2%;
+	width: 96%;
+	background-color: rgba(209, 65,48, 0.1);
+	color: rgba(209, 65,48, 1);
+}
+
+.gg:hover{
+	background-color: rgba(209, 65,48, 0.9);
+	color: #fff;
+}

@@ -1,0 +1,22 @@
+.card-img-slider{
+	width: 100%;
+}
+
+.card-img-slider .img-div img{
+	width: 100%;
+}
+
+.card-img-slider .slick-dots
+{
+	position: relative;
+}
+
+.card-img-slider .slick-dots li{
+	width: 70px;
+	height: 70px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card-img-slider .slick-dots li img{
+	width: 100%;
+}
