@@ -8,6 +8,7 @@ import Badge from '@material-ui/core/Badge';
 import ShopOutlinedIcon from '@material-ui/icons/ShopOutlined';
 import SlidingWindow from '../SlidingWindow';
 import LongInput from '../LongInput';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -32,9 +33,12 @@ function ResponsiveNavbar(){
 				<div className = "responsive-navbar-icons">
 					<i className = "fa fa-search" onClick = {() => setSearch(!search)} ></i>
 					<i className = "fa fa-user"></i>
-					<Badge badgeContent= "2" color="error"  overlap="circle">
-						<i className = "fa fa-shopping-bag cart-icon"></i>
-					</Badge>
+					<Link to = "/cart">
+						<Badge badgeContent= "2" color="error"  overlap="circle">
+							<i className = "fa fa-shopping-bag cart-icon"></i>
+						</Badge>
+					</Link>
+					
 				</div>
 			</div>
 			{search && 

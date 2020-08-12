@@ -30,3 +30,47 @@
 	background-color: rgba(0, 0, 0,0.07);
 	color: rgba(0, 0, 0, 1);
 }
+
+@media only screen and (max-width: 1200px) {
+	.subcategory-li{
+		display: none;
+	}
+	.breadcrumb-root{
+		background-color: #eee;
+	}
+}
+@media only screen and (max-width: 850px) {
+	.breadcrumb ul{
+		font-size: 14px;
+	}
+	.breadcrumb ul li{
+		margin-right: 1em;
+	}
+	.breadcrumb ul li span{
+		padding: 10px 15px;
+		border-radius: 5px;
+	}
+	.breadcrumb ul li i{
+		font-size: 10px;
+		margin-left: 1em;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.breadcrumb ul li{
+		margin-right: 0.5em;
+	}
+	.breadcrumb ul li span{
+		padding: 5px 10px;
+		border-radius: 5px;
+	}
+	.breadcrumb ul li i{
+		display: none;
+	}
+	.product-li{
+		display: none;
+	}
+	.subcategory-li{
+		display: block;
+	}
+}

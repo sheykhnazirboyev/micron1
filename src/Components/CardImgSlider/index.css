@@ -20,3 +20,26 @@
 .card-img-slider .slick-dots li img{
 	width: 100%;
 }
+
+@media only screen and (max-width: 1200px) {
+	.card-img-slider .slick-dots li{
+		width: 50px;
+		height: 50px;
+		
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	.card-img-slider .slick-dots li{
+		width: 35px;
+		height: 35px;
+		
+	}
+}
+@media only screen and (max-width: 750px) {
+	.card-img-slider .slick-dots li{
+		width: 40px;
+		height: 40px;
+		
+	}
+}

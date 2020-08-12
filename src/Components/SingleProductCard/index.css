@@ -109,3 +109,42 @@
 	background-color: rgba(0, 0, 0, 0.7);
 	box-shadow: 0px 15px 10px -10px rgba(0, 0, 0, 0.1);
 }
+
+@media only screen and (max-width: 750px) {
+	.single-product-card{
+		flex-direction: column;
+	}
+	.single-product-card-img
+	{
+		width: 80%;	
+		margin: 1em auto;
+
+	}		
+}
+@media only screen and (max-width: 650px) {
+	.single-product-card{
+		flex-direction: column;
+	}
+	.single-product-card-img
+	{
+		width: 100%;	
+		margin: 1em auto;
+
+	}		
+	.single-product-card-content{
+	
+		padding: 2em 0em;
+	}
+	
+	.product-new-cost{
+		font-size: 25px;
+		color: rgba(0,0,0,0.8);
+		margin-right: 0.5em;
+	}
+	
+	.product-old-cost{
+		font-size: 16px;
+		text-decoration: line-through;
+	}
+	
+}

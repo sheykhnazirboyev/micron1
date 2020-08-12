@@ -1,11 +1,14 @@
 import React from 'react';
 import Container from '../Container/Container';
 import Logo from '../Logo';
+
 import "./index.css";
+import ResponsiveNavbar from '../ResponsiveNavbar';
 
 function NavbarV2(props){
 	return(
 		<div>
+			<ResponsiveNavbar />
 		<Container>
 			<div className = "navbar-v2">
 				<Logo />

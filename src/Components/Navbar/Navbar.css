@@ -31,9 +31,11 @@
 	color: red;
 }
 
+
 @media only screen and (max-width: 1200px) {
 	.navbar-root{
 		display: none;
 	}
+	
 }
 
